@@ -1,0 +1,45 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B1A4512B-1A32-4531-BB7F-B01572528E80}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{65B1523A-157B-4D9E-8B03-4501DFDAFE1E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tools", "tools", "{1B4A3036-3D1A-4CE8-A8BC-39F2EA518B60}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mpx.Payments.Api", "src\Mpx.Payments.Api\Mpx.Payments.Api.csproj", "{D2A95862-00AE-4658-8175-8D58A36DCBD3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mpx.Payments.Tests", "tests\Mpx.Payments.Tests\Mpx.Payments.Tests.csproj", "{BD2931BB-A72A-4D08-BB39-33C34AA5C258}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mpx.Payments.TokenGen", "tools\Mpx.Payments.TokenGen\Mpx.Payments.TokenGen.csproj", "{592AC51D-D5DD-4CF9-8741-840B84CF5AED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D2A95862-00AE-4658-8175-8D58A36DCBD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2A95862-00AE-4658-8175-8D58A36DCBD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2A95862-00AE-4658-8175-8D58A36DCBD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2A95862-00AE-4658-8175-8D58A36DCBD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD2931BB-A72A-4D08-BB39-33C34AA5C258}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD2931BB-A72A-4D08-BB39-33C34AA5C258}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD2931BB-A72A-4D08-BB39-33C34AA5C258}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD2931BB-A72A-4D08-BB39-33C34AA5C258}.Release|Any CPU.Build.0 = Release|Any CPU
+		{592AC51D-D5DD-4CF9-8741-840B84CF5AED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{592AC51D-D5DD-4CF9-8741-840B84CF5AED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{592AC51D-D5DD-4CF9-8741-840B84CF5AED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{592AC51D-D5DD-4CF9-8741-840B84CF5AED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D2A95862-00AE-4658-8175-8D58A36DCBD3} = {B1A4512B-1A32-4531-BB7F-B01572528E80}
+		{BD2931BB-A72A-4D08-BB39-33C34AA5C258} = {65B1523A-157B-4D9E-8B03-4501DFDAFE1E}
+		{592AC51D-D5DD-4CF9-8741-840B84CF5AED} = {1B4A3036-3D1A-4CE8-A8BC-39F2EA518B60}
+	EndGlobalSection
+EndGlobal
