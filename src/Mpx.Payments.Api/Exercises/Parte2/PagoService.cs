@@ -20,7 +20,7 @@ public interface IPagoService
 /// PARTE 2.1 – Implemente AplicarPagoAsync.
 /// El débito del saldo y la creación del pago deben ser atómicos.
 /// Ante DbUpdateConcurrencyException, reintente hasta 3 veces y luego indique conflicto (HTTP 409).
-/// Puede cambiar la firma, crear excepciones de dominio y mover esta clase si lo justifica.
+/// Puede cambiar la firma, crear excepciones de dominio y mover esta clase si lo justifica.B
 /// </summary>
 public class PagoService : IPagoService
 {
@@ -28,6 +28,7 @@ public class PagoService : IPagoService
 
     public PagoService(AppDbContext db) => _db = db;
 
+    
     public Task<Pago> AplicarPagoAsync(AplicarPagoCommand command, CancellationToken ct = default)
     {
         // TODO (Parte 2.1)
